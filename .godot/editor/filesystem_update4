@@ -1,11 +1,4 @@
-res://Entity.gd
-res://Entity.tscn
-res://Level.tscn
-res://CharacterBody2D.gd
-res://entity.tscn
-res://test.gd
-res://Entities/Entity.tscn
+res://Drop Locations/computer_drop.tscn
+res://Drop Locations/machine_drop.tscn
 res://Level/Level.tscn
-res://Entities/Entity.gd
-res://computer_drop.tscn
-res://machine_drop.tscn
+res://Text/text.tscn
