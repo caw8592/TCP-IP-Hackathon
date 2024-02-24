@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Level/Example/Level.gd" id="1_smeil"]
 [ext_resource type="PackedScene" uid="uid://dvg6rfdmcbva3" path="res://Drop Locations/computer/computer_drop.tscn" id="2_p7r0d"]
-[ext_resource type="PackedScene" uid="uid://c65bdpsolwlm0" path="res://Drop Locations/machine_drop.tscn" id="3_4nvbs"]
+[ext_resource type="PackedScene" uid="uid://c65bdpsolwlm0" path="res://Drop Locations/machine/machine_drop.tscn" id="3_4nvbs"]
 [ext_resource type="PackedScene" uid="uid://cji7wphvmp2v3" path="res://Entities/Entity.tscn" id="4_vrmgf"]
 
 [node name="Level" type="Node2D"]

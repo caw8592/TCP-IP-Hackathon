@@ -1,6 +1,2 @@
-res://Drop Locations/computer_drop.tscn
-res://Drop Locations/machine_drop.tscn
-res://Level/Level.tscn
-res://Text/text.tscn
-res://Entities/Entity.tscn
-res://Text/StoryBoard.gd
+res://Level/Example/Level.tscn
+res://Drop Locations/computer/computer_drop.tscn

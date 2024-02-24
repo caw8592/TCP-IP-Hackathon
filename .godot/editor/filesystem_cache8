@@ -1,25 +1,27 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708817647
-::res://Drop Locations/::1708815018
-::res://Drop Locations/computer/::1708814977
-computer_drop.tscn::PackedScene::8647526887073610840::1708814972::0::1::::<><>::uid://dfuncfljmkawl
-image_processing20200424-23023-1htrg5m.png::CompressedTexture2D::7552286996879382375::1708813540::1708814972::1::::<><>::
-::res://Drop Locations/machine/::1708814985
-machine_drop.tscn::PackedScene::7010693743469885565::1708814981::0::1::::<><>::uid://cau6lswdk2twm
-server_f.webp::CompressedTexture2D::4816031772532865180::1708813540::1708814982::1::::<><>::
+::res://::1708818693
+::res://Drop Locations/::1708818532
+::res://Drop Locations/computer/::1708818675
+computer_drop.tscn::PackedScene::8647526887073610840::1708818675::0::1::::<><>::uid://dfuncfljmkawl::::res://Drop Locations/computer/image_processing20200424-23023-1htrg5m.png
+image_processing20200424-23023-1htrg5m.png::CompressedTexture2D::7552286996879382375::1708818523::1708818523::1::::<><>::
+::res://Drop Locations/machine/::1708818532
+machine_drop.tscn::PackedScene::7010693743469885565::1708818523::0::1::::<><>::uid://cau6lswdk2twm::::res://Drop Locations/machine/server_f.webp
+server_f.webp::CompressedTexture2D::4816031772532865180::1708818523::1708818523::1::::<><>::
 ::res://Drop Locations/package/::1708815018
-::res://Entities/::1708814419
-788315-200.png::CompressedTexture2D::2176406049614781625::1708813540::1708813540::1::::<><>::
-Entity.gd::GDScript::-1::1708813540::0::1::::<>Node2D<>::
-Entity.tscn::PackedScene::5423039013030090858::1708814419::0::1::::<><>::res://Entities/Entity.gd<>uid://6ajdbwahtohl::::res://Entities/788315-200.png
-::res://Level/::1708817653
-::res://Level/Example/::1708814975
-Level.gd::GDScript::-1::1708813540::0::1::::<>Node2D<>::
-Level.tscn::PackedScene::611459617477523455::1708814972::0::1::::<><>::res://Level/Example/Level.gd<>uid://dvg6rfdmcbva3
+::res://Entities/::1708818532
+788315-200.png::CompressedTexture2D::2176406049614781625::1708818523::1708818523::1::::<><>::
+Entity.gd::GDScript::-1::1708818523::0::1::::<>Node2D<>::
+Entity.tscn::PackedScene::5423039013030090858::1708818523::0::1::::<><>::res://Entities/Entity.gd<>uid://6ajdbwahtohl::::res://Entities/788315-200.png
+::res://Level/::1708818581
+::res://Level/Example/::1708818675
+Level.gd::GDScript::-1::1708818523::0::1::::<>Node2D<>::
+Level.tscn::PackedScene::611459617477523455::1708818675::0::1::::<><>::res://Level/Example/Level.gd<>uid://dvg6rfdmcbva3::::res://Drop Locations/computer/computer_drop.tscn<>uid://c65bdpsolwlm0::::res://Drop Locations/machine/machine_drop.tscn<>uid://cji7wphvmp2v3::::res://Entities/Entity.tscn
 ::res://Level/Step1/::1708817214
-::res://Level/Step2/::1708817636
+::res://Level/Step2/::1708818529
+Step2_Encapsulation.tscn::PackedScene::1138221749218702370::1708818523::0::1::::<><>::
 ::res://Level/Step3/::1708817643
-::res://Level/Step4/::1708817653
-::res://Text/::1708815304
-StoryBoard.gd::GDScript::-1::1708815302::0::1::::<>Label<>::
-text.tscn::PackedScene::2469763651492344329::1708815302::0::1::::<><>::res://Text/StoryBoard.gd
+::res://Level/Step4/::1708817654
+::res://Level/Step5/::1708817660
+::res://Text/::1708818532
+StoryBoard.gd::GDScript::-1::1708818523::0::1::::<>Label<>::
+text.tscn::PackedScene::2469763651492344329::1708818523::0::1::::<><>::res://Text/StoryBoard.gd
