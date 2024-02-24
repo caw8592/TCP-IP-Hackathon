@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://c65bdpsolwlm0"]
 
-[ext_resource type="Texture2D" uid="uid://cau6lswdk2twm" path="res://Drop Locations/server_f.webp" id="1_go2u6"]
+[ext_resource type="Texture2D" uid="uid://cau6lswdk2twm" path="res://Drop Locations/machine/server_f.webp" id="1_go2u6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1j1pi"]
 
