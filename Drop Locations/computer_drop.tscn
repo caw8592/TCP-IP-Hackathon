@@ -4,7 +4,7 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x6lse"]
 
-[node name="Computer" type="StaticBody2D" groups=["droppable"]]
+[node name="Computer" type="StaticBody2D"]
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
