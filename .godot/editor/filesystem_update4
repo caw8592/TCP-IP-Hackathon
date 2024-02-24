@@ -3,3 +3,4 @@ res://Drop Locations/machine_drop.tscn
 res://Level/Level.tscn
 res://Text/text.tscn
 res://Entities/Entity.tscn
+res://Text/StoryBoard.gd
