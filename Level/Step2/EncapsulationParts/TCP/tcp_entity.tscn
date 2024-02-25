@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://d3nhaxyvpc28a"]
 
-[ext_resource type="Script" path="res://Entities/EncapsulationParts/TCP/tcp_entity.gd" id="1_00jfa"]
+[ext_resource type="Script" path="res://Level/Step2/EncapsulationParts/TCP/tcp_entity.gd" id="1_00jfa"]
 [ext_resource type="Texture2D" uid="uid://cu2sktpyyv81o" path="res://box.webp" id="2_ebsky"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s0q5b"]
@@ -20,9 +20,9 @@ scale = Vector2(0.140146, -0.0288032)
 texture = ExtResource("2_ebsky")
 
 [node name="Label" type="Label" parent="."]
-offset_left = -6.0
+offset_left = -4.0
 offset_top = -3.0
-offset_right = 34.0
+offset_right = 36.0
 offset_bottom = 23.0
 scale = Vector2(0.274296, 0.258345)
 text = "TCP"

@@ -1,13 +1,13 @@
 [gd_scene load_steps=4 format=3 uid="uid://bdyugtddnuxc7"]
 
-[ext_resource type="Script" path="res://Entities/EncapsulationParts/Data/data_entity.gd" id="1_a6vac"]
-[ext_resource type="Texture2D" uid="uid://cu2sktpyyv81o" path="res://box.webp" id="2_fdc6m"]
+[ext_resource type="Script" path="res://Level/Step2/EncapsulationParts/Data/data_entity.gd" id="1_kojno"]
+[ext_resource type="Texture2D" uid="uid://cu2sktpyyv81o" path="res://box.webp" id="2_72n1a"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ts011"]
 size = Vector2(69.7628, 20)
 
 [node name="data_entity" type="Node2D"]
-script = ExtResource("1_a6vac")
+script = ExtResource("1_kojno")
 metadata/_edit_group_ = true
 
 [node name="data_entity_collision" type="Area2D" parent="." groups=["data_droppable"]]
@@ -18,7 +18,7 @@ shape = SubResource("RectangleShape2D_ts011")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.140146, -0.0288032)
-texture = ExtResource("2_fdc6m")
+texture = ExtResource("2_72n1a")
 
 [node name="Label" type="Label" parent="."]
 offset_left = -6.0

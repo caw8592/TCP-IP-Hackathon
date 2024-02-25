@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://sktlmy0mp44g"]
 
-[ext_resource type="Script" path="res://Entities/EncapsulationParts/Header/header_entity.gd" id="1_0lh52"]
+[ext_resource type="Script" path="res://Level/Step2/EncapsulationParts/Header/header_entity.gd" id="1_0lh52"]
 [ext_resource type="Texture2D" uid="uid://cu2sktpyyv81o" path="res://box.webp" id="2_e3mpy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7kew1"]

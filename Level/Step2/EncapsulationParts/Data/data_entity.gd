@@ -19,9 +19,10 @@ func _process(delta):
 		if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) == false:
 			dragging = false
 			test = false
-			if droppable == true:
+			if droppable == true and get_parent().get_parent().get_step() == 0:
 				position = dropLoc
 				correct = true
+				get_parent().get_parent().next_step()
 			else:
 				position = init
 
