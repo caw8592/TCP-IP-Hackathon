@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://sktlmy0mp44g"]
+
+[ext_resource type="Script" path="res://Level/Step2/EncapsulationParts/Header/header_entity.gd" id="1_0lh52"]
+[ext_resource type="Texture2D" uid="uid://cu2sktpyyv81o" path="res://box.webp" id="2_e3mpy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7kew1"]
+size = Vector2(69.7628, 20)
+
+[node name="header_entity" type="Node2D"]
+script = ExtResource("1_0lh52")
+
+[node name="header_entity_collision" type="Area2D" parent="." groups=["data_droppable"]]
+scale = Vector2(1.04906, 0.749162)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="header_entity_collision"]
+shape = SubResource("RectangleShape2D_7kew1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.140146, -0.0288032)
+texture = ExtResource("2_e3mpy")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -8.0
+offset_top = -3.0
+offset_right = 49.0
+offset_bottom = 23.0
+scale = Vector2(0.274296, 0.258345)
+text = "Header"
+
+[connection signal="body_entered" from="header_entity_collision" to="." method="_on_header_entity_collision_body_entered"]
+[connection signal="body_exited" from="header_entity_collision" to="." method="_on_header_entity_collision_body_exited"]
+[connection signal="mouse_entered" from="header_entity_collision" to="." method="_on_header_entity_collision_mouse_entered"]
+[connection signal="mouse_exited" from="header_entity_collision" to="." method="_on_header_entity_collision_mouse_exited"]
