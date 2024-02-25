@@ -4,42 +4,54 @@ var step = 0
 var txt
 
 func _ready():
-	txt = "hewwo"
+	display_next()
 
 # Called when the node enters the scene tree for the first time.
 func _process(delta):
 	$Label.text = txt
 	
 
-func display_error():
-	txt = "NO!!"
+func display_data(x):
+	if x == 0:
+		txt = "This is the data block, it should go in first!"
+	if x == 1:
+		txt = "Correct! you now have a block of data"
+		
+func display_TCP(x):
+	if x == 0:
+		txt = "This is the TCP block, it should go in second!"
+	if x == 1:
+		txt = "Correct! you now have a segment"
+		
+func display_IP(x):
+	if x == 0:
+		txt = "This is the IP block, it should go in third!"
+	if x == 1:
+		txt = "Correct! you now have a packet"
+		
+func display_header_footer(x):
+	if x == 0:
+		txt = "This is the header/footer, it should go in fourth alongside the header/footer!"
+	if x == 1:
+		txt = "Correct! you now have a frame"
 
 func display_next():
 	if step == 0:
-		txt = "no!!"
+		txt = "Before we can send data off to a remote terminal well have to complete the process of encapsulatiion. This will 
+		result in a frame that will ensure the information will make it to the correct location and be parcable by whatever is at 
+		its destination"
 		step += 1
 	elif step == 1:
-		txt = "Drag your host computer's syncronization request to the remote terminal."
+		txt = "Encapsulation occurs in 5 stages of adding data. First the data that you wish to be send, second TCP information that
+		will assist in the three way handshake that we just went over, third ip information providing the source and destination IP 
+		addresses, fourth a header and a footer providing some meta information about the frame and what should happen say it fails, 
+		finally the information gets sent"
 		step += 1
 	elif step == 2:
-		txt = "Now that the request has been recieved by the remote terminal it will send back
-		both an acknowledgement of the request and also another syncronization request to the host.
-		This is the second part of the \"Three Way Handshake\"."
+		txt = "Lets see if you remember that order! drag these \"data blocks\" into the next glowing area in the correct order. Keep in mind, 
+		while you wont need to know the structure for this exsersize, the structure these are being inserted in is how a frame will always be 
+		structured"
 		step += 1
 	elif step == 3:
-		txt = "Drag the remote computers acknowledgement and syncronization request to your host terminal."
+		txt = "FELICITATIONS!!! you have completed a full frame. Hit that send button, you deserve it champ"
 		step += 1
-	elif step == 4:
-		txt = "The third and final step of this handshake is for your host terminal to acknowledge the 
-		syncronization information from the remote terminal."
-		step += 1
-	elif step == 5:
-		txt = "Drag your host computer's acknowledgement to the remote terminal to complete the handshake."
-		step += 1
-	elif step == 6:
-		txt = "CONGRATULATIONS! you have now set up a secure connection to a remote terminal and are ready to 
-		begin sending data. Next we will talk about how this data must be encapsulated for sending and then 
-		decapsulated after being sent."
-		step += 1
-	elif step == 7:
-		txt = ""
