@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://b78w7qib8501x"]
+
+[ext_resource type="Script" path="res://Levels/Step4/Entities/footer_entity.gd" id="1_dsybf"]
+[ext_resource type="Texture2D" uid="uid://cu2sktpyyv81o" path="res://box.webp" id="1_fkrur"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_771nj"]
+size = Vector2(69.7628, 20)
+
+[node name="footer_entity" type="Node2D"]
+script = ExtResource("1_dsybf")
+
+[node name="footer_area" type="Area2D" parent="."]
+scale = Vector2(1.04906, 0.749162)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="footer_area"]
+shape = SubResource("RectangleShape2D_771nj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.140146, -0.0288032)
+texture = ExtResource("1_fkrur")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -37.0
+offset_top = -8.0
+offset_right = 233.0
+offset_bottom = 54.0
+scale = Vector2(0.274296, 0.258345)
+text = "Footer"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="body_entered" from="footer_area" to="." method="_on_footer_area_body_entered"]
+[connection signal="body_exited" from="footer_area" to="." method="_on_footer_area_body_exited"]
+[connection signal="mouse_entered" from="footer_area" to="." method="_on_footer_area_mouse_entered"]
+[connection signal="mouse_exited" from="footer_area" to="." method="_on_footer_area_mouse_exited"]
