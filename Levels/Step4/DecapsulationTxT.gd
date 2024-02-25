@@ -54,7 +54,7 @@ func display_next():
 		step += 1
 	elif step == 1:
 		txt = "To do this the machine will essentially reverse the process of encapsulation. 
-		Remove eache piece of the frame in the reverse order that you put them into the frame."
+		Remove each piece of the frame in the reverse order that you put them into the frame."
 		step += 1
 	elif step == 3:
 		txt = "EXCELSIOR!!!!! Our data has finally made it to its destination. Were almost done 

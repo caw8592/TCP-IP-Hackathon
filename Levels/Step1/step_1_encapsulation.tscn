@@ -41,11 +41,11 @@ text = "Continue
 
 [node name="Computer" parent="." groups=["computer_drop"] instance=ExtResource("3_qyind")]
 position = Vector2(321, 414)
-scale = Vector2(8, 8)
+scale = Vector2(30, 30)
 
 [node name="Machine" parent="." groups=["machine_drop"] instance=ExtResource("4_0d38r")]
-position = Vector2(826, 415)
-scale = Vector2(8, 8)
+position = Vector2(830, 415)
+scale = Vector2(11, 11)
 
 [node name="Entities" type="Node" parent="."]
 

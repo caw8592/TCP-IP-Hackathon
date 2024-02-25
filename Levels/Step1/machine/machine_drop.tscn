@@ -1,15 +1,16 @@
 [gd_scene load_steps=3 format=3 uid="uid://d363c88bd3ph5"]
 
-[ext_resource type="Texture2D" uid="uid://cau6lswdk2twm" path="res://Levels/Example/machine/server_f.webp" id="1_qygk1"]
+[ext_resource type="Texture2D" uid="uid://c6saquqlwj16k" path="res://Levels/png/004-wifi-router.png" id="1_myuvf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1j1pi"]
+size = Vector2(16, 16)
 
 [node name="Machine" type="StaticBody2D"]
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.0268226, 0.0270108)
-texture = ExtResource("1_qygk1")
+texture = ExtResource("1_myuvf")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_1j1pi")

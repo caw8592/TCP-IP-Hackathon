@@ -3,12 +3,12 @@
 [ext_resource type="Texture2D" uid="uid://dweo3ypojp5e5" path="res://box.png" id="1_x20xg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ws6xq"]
-size = Vector2(74.5671, 16.902)
+size = Vector2(74.5671, 12)
 
 [node name="tcp_drop" type="StaticBody2D" groups=["tcp_droppable"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1.81794e-06, 2.98023e-08)
+position = Vector2(1.81794e-06, 0)
 scale = Vector2(0.992394, 1)
 shape = SubResource("RectangleShape2D_ws6xq")
 

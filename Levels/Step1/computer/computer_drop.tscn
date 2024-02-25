@@ -1,8 +1,9 @@
 [gd_scene load_steps=3 format=3 uid="uid://gbk6a7fgysvl"]
 
-[ext_resource type="Texture2D" uid="uid://dfuncfljmkawl" path="res://Levels/Example/computer/image_processing20200424-23023-1htrg5m.png" id="1_5c1ma"]
+[ext_resource type="Texture2D" uid="uid://bsxq6e40sb88f" path="res://Levels/png/008-monitor.png" id="1_enlwm"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x6lse"]
+size = Vector2(6, 6)
 
 [node name="Computer" type="StaticBody2D"]
 metadata/_edit_group_ = true
@@ -12,4 +13,4 @@ shape = SubResource("RectangleShape2D_x6lse")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.01, 0.01)
-texture = ExtResource("1_5c1ma")
+texture = ExtResource("1_enlwm")

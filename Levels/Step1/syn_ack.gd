@@ -46,12 +46,12 @@ func _on_syn_ack_area_1_mouse_exited():
 func _on_syn_ack_area_1_body_entered(body):
 	if body.is_in_group('computer_drop'):
 		droppable = true
-		body.scale = Vector2(8.1, 8.1)
+		body.scale = Vector2(30.2, 30.2)
 		dropLoc = body.position
 
 
 func _on_syn_ack_area_1_body_exited(body):
 	if body.is_in_group('computer_drop'):
 		droppable = false
-		body.scale = Vector2(8, 8)
+		body.scale = Vector2(30, 30)
 

@@ -21,10 +21,10 @@ func _input(event):
 func _on_area_2d_mouse_entered():
 	if not dragging:
 		draggable = true
-		scale = Vector2(8.1, 8.1)
+		scale = Vector2(30.2, 30.2)
 
 
 func _on_area_2d_mouse_exited():
 	if not dragging:
 		draggable = false
-		scale = Vector2(8, 8)
+		scale = Vector2(30, 30)

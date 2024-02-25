@@ -1,16 +1,17 @@
 [gd_scene load_steps=4 format=3 uid="uid://cwsm2jbm23av1"]
 
 [ext_resource type="Script" path="res://Levels/Step5/computer/computer.gd" id="1_d6po1"]
-[ext_resource type="Texture2D" uid="uid://dfuncfljmkawl" path="res://Levels/Example/computer/image_processing20200424-23023-1htrg5m.png" id="1_lrkn4"]
+[ext_resource type="Texture2D" uid="uid://bsxq6e40sb88f" path="res://Levels/png/008-monitor.png" id="2_ecxia"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_aqunp"]
+size = Vector2(6, 6)
 
 [node name="Computer" type="Node2D"]
 script = ExtResource("1_d6po1")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.01, 0.01)
-texture = ExtResource("1_lrkn4")
+texture = ExtResource("2_ecxia")
 
 [node name="Area2D" type="Area2D" parent="."]
 

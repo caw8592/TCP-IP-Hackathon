@@ -35,13 +35,13 @@ func _input(event):
 func _on_syn_area_1_body_entered(body):
 	if body.is_in_group('machine_drop'):
 		droppable = true
-		body.scale = Vector2(8.1, 8.1)
+		body.scale = Vector2(11.1, 11.1)
 		dropLoc = body.position
 		
 func _on_syn_area_1_body_exited(body):
 	if body.is_in_group('machine_drop'):
 		droppable = false
-		body.scale = Vector2(8, 8)
+		body.scale = Vector2(11, 11)
 	
 func _on_syn_area_1_mouse_entered():
 	if not dragging:
