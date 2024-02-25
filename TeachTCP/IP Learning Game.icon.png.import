@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlt5pfpk12p10"
-path="res://.godot/imported/IP Learning Game.icon.png-c9eca868f92d97278f4fc9cc592215d2.ctex"
+path="res://.godot/imported/IP Learning Game.icon.png-2df344aaa92dd57fd965629d59e80875.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TeachTCP/Webpage/IP Learning Game.icon.png"
-dest_files=["res://.godot/imported/IP Learning Game.icon.png-c9eca868f92d97278f4fc9cc592215d2.ctex"]
+source_file="res://TeachTCP/IP Learning Game.icon.png"
+dest_files=["res://.godot/imported/IP Learning Game.icon.png-2df344aaa92dd57fd965629d59e80875.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://v53whi5bbjml"
-path="res://.godot/imported/IP Learning Game.apple-touch-icon.png-82e654f70bf6bd7c726081a4262434f7.ctex"
+path="res://.godot/imported/IP Learning Game.apple-touch-icon.png-b1d8a811d1ff83e51e182825b73d1bec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TeachTCP/Webpage/IP Learning Game.apple-touch-icon.png"
-dest_files=["res://.godot/imported/IP Learning Game.apple-touch-icon.png-82e654f70bf6bd7c726081a4262434f7.ctex"]
+source_file="res://TeachTCP/IP Learning Game.apple-touch-icon.png"
+dest_files=["res://.godot/imported/IP Learning Game.apple-touch-icon.png-b1d8a811d1ff83e51e182825b73d1bec.ctex"]
 
 [params]
 
