@@ -19,6 +19,9 @@ func _process(delta):
 			elif get_parent().get_parent().get_step() == 2:
 				get_parent().get_parent().next_step()
 				queue_free()
+			else:
+				position = init
+				get_parent().get_parent().display_wrong()
 
 func _input(event):
 	if draggable:

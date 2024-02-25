@@ -16,11 +16,12 @@ func _process(delta):
 			test = false
 			if droppable:
 				position = init
-			elif get_parent().get_parent().get_step() == 1:
+			elif get_parent().get_parent().get_step() == 3:
 				get_parent().get_parent().next_step()
 				queue_free()
 			else:
 				position = init
+				get_parent().get_parent().display_wrong()
 
 func _input(event):
 	if draggable:
