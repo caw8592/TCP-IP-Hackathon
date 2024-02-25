@@ -24,6 +24,7 @@ func _process(delta):
 				correct = true
 				get_parent().get_parent().next_step()
 			else:
+				get_parent().get_parent().display_incorrect()
 				position = init
 
 func _input(event):
@@ -56,6 +57,7 @@ func _on_tcp_entity_collision_body_entered(body):
 		dropLoc = body.position
 		
 	if not body.is_in_group('tcp_droppable'):
+		incorrect = true
 		body.scale = Vector2(5.1, 5.1)
 		dropLoc = body.position
 		droppable = false
@@ -67,4 +69,5 @@ func _on_tcp_entity_collision_body_exited(body):
 		body.scale = Vector2(5, 5)
 
 	if not body.is_in_group('tcp_droppable'):
+		incorrect = false
 		body.scale = Vector2(5, 5)

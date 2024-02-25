@@ -25,6 +25,7 @@ func _process(delta):
 				get_parent().get_parent().next_step()
 			else:
 				position = init
+				get_parent().get_parent().display_incorrect()
 
 func _input(event):
 	if draggable and not correct:
@@ -59,6 +60,7 @@ func _on_header_entity_collision_body_entered(body):
 		body.scale = Vector2(5.1, 5.1)
 		dropLoc = body.position
 		droppable = false
+		incorrect = true
 
 
 func _on_header_entity_collision_body_exited(body):
@@ -68,3 +70,4 @@ func _on_header_entity_collision_body_exited(body):
 		
 	if not body.is_in_group('header_droppable'):
 		body.scale = Vector2(5, 5)
+		incorrect = false

@@ -24,6 +24,7 @@ func _process(delta):
 				correct = true
 				get_parent().get_parent().next_step()
 			else:
+				get_parent().get_parent().display_incorrect()
 				position = init
 
 func _input(event):
@@ -58,6 +59,7 @@ func _on_data_entity_collision_body_entered(body):
 	if not body.is_in_group('data_droppable'):
 		body.scale = Vector2(5.1, 5.1)
 		droppable = false
+		incorrect = true
 		dropLoc = body.position
 
 
@@ -68,3 +70,4 @@ func _on_data_entity_collision_body_exited(body):
 		
 	if not body.is_in_group('data_droppable'):
 		body.scale = Vector2(5, 5)
+		incorrect = false

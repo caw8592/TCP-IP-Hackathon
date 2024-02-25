@@ -10,7 +10,12 @@ func _ready():
 func _process(delta):
 	$Label.text = txt
 	
-
+func get_step():
+	return step
+	
+func set_step(x):
+	step = x
+		
 func display_data(x):
 	if x == 0:
 		txt = "This is the data block, it should go in first!"
@@ -31,7 +36,7 @@ func display_IP(x):
 		
 func display_header_footer(x):
 	if x == 0:
-		txt = "This is the header/footer, it should go in fourth alongside the header/footer!"
+		txt = "This is the header/footer, they should go in fourth"
 	if x == 1:
 		txt = "Correct! you now have a frame"
 
@@ -52,6 +57,11 @@ func display_next():
 		while you wont need to know the structure for this exsersize, the structure these are being inserted in is how a frame will always be 
 		structured"
 		step += 1
-	elif step == 3:
+	elif step == 4:
 		txt = "FELICITATIONS!!! you have completed a full frame. Hit that send button, you deserve it champ"
 		step += 1
+
+func _on_button_pressed():
+	display_next()
+	if step == 5:
+		$Button.text = "Send"
