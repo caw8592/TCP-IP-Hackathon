@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://ctmupx3lnu7sm"]
+
+[ext_resource type="Script" path="res://Levels/Example/Data/Entity.gd" id="1_i74kn"]
+[ext_resource type="Texture2D" uid="uid://6ajdbwahtohl" path="res://Levels/Example/Data/788315-200.png" id="2_7vu3b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_en3rw"]
+size = Vector2(24, 24)
+
+[node name="File" type="Node2D"]
+scale = Vector2(4.56, 4.88)
+script = ExtResource("1_i74kn")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(4.76837e-07, -4.76837e-07)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("2_7vu3b")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_en3rw")
+
+[connection signal="area_shape_entered" from="Area2D" to="." method="_on_area_2d_area_shape_entered"]
+[connection signal="area_shape_exited" from="Area2D" to="." method="_on_area_2d_area_shape_exited"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]
