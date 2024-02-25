@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="TCP/IP Learning Game"
-run/main_scene="res://Levels/Example/Level.tscn"
+run/main_scene="res://Levels/Step1/step_1_encapsulation.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 <<<<<<<Updatedupstreamrun/main_scene="res://Level/Example/Level.tscn"
 
