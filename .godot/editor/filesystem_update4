@@ -47,3 +47,9 @@ res://Levels/Step4/step_4_unencapsulation.gd
 res://Levels/Step2/EncapsulationLabel/Control.gd
 res://Levels/Step4/boxes.tscn
 res://Levels/Step4/Entities/boxes.tscn
+res://Levels/Step5/terminate_connectionTxT.gd
+res://Levels/Step5/termination_label.tscn
+res://Levels/Step5/step_5_termination.tscn
+res://Levels/Step5/computer/computer.tscn
+res://Levels/Step5/computer/computer.gd
+res://Levels/Step5/step_5_termination.gd

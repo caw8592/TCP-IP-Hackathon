@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbmrhlj7tpkxg"]
+
+[ext_resource type="Texture2D" uid="uid://dfuncfljmkawl" path="res://Levels/Example/computer/image_processing20200424-23023-1htrg5m.png" id="1_qvppl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x6lse"]
+
+[node name="Computer" type="StaticBody2D"]
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_x6lse")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("1_qvppl")

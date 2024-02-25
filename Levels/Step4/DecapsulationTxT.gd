@@ -60,6 +60,8 @@ func display_next():
 		txt = "EXCELSIOR!!!!! Our data has finally made it to its destination. Were almost done 
 		just one last thing to do...."
 		step += 1
+	elif step == 4:
+				get_tree().change_scene_to_file("res://Levels/Step5/step_5_termination.tscn")
 
 
 func _on_button_pressed():
