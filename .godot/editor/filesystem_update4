@@ -1,21 +1,4 @@
-res://Level/Example/Level.tscn
-res://Drop Locations/computer/computer_drop.tscn
-res://Level/Step2/Step2_Encapsulation.tscn
-res://Entities/EncapsulationParts/Data/data_entity.tscn
-res://Entities/EncapsulationParts/Data/data_entity.gd
-res://Drop Locations/package/DataDrop/data_drop.tscn
-res://Drop Locations/package/TCP/tcp_drop.tscn
-res://Entities/EncapsulationParts/TCP/tcp_entity.gd
-res://Entities/EncapsulationParts/TCP/tcp_entity.tscn
-res://Drop Locations/machine/machine_drop.tscn
-res://Control.gd
-res://Text/EncapsulationTxT.tscn
-res://header_entity.gd
+res://Text/text.tscn
+res://Entities/Entity.tscn
 res://Text/EncapsulationLabel/EncapsulationTxT.tscn
-res://Entities/EncapsulationParts/Header/header_entity.tscn
-res://Drop Locations/package/HeaderDrop/header_drop.tscn
-res://ip_entity.gd
-res://Entities/EncapsulationParts/IP/ip_entity.tscn
-res://Drop Locations/package/IPDrop/ip_drop.tscn
-res://Entities/EncapsulationParts/IP/ip_entity.gd
-res://Entities/EncapsulationParts/Header/header_entity.gd
+res://Text/EncapsulationLabel/Control.gd
