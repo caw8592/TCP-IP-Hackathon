@@ -1,0 +1,8 @@
+res://Drop Locations/computer/computer_drop.tscn::919a49fb04db92f22c28a1d7e523aa70::1708818706::res://.godot/exported/133200997/export-57c9f64ebce6664340919705ad9f580d-computer_drop.scn
+res://Drop Locations/machine/machine_drop.tscn::588356aaa0afea8c6bd825e872990218::1708818523::res://.godot/exported/133200997/export-17df45382dcd89e5d8795eb575f87417-machine_drop.scn
+res://Drop Locations/package/DataDrop/data_drop.tscn::23da5533a423f130c509aac17724ddeb::1708820108::res://.godot/exported/133200997/export-9237ad9a3948c6e0a2310842a31892c7-data_drop.scn
+res://Entities/Data/Entity.tscn::901893f2ea15d13d43e42b588af92d06::1708819050::res://.godot/exported/133200997/export-4a0ec8ca1ac0b5af37508bceef87c3c6-Entity.scn
+res://Entities/EncapsulationParts/Data/data_entity.tscn::49f1b96a081e37a66d4ff70acf2f96cd::1708820709::res://.godot/exported/133200997/export-500d482878c29e08d53aa7b98cd86f3e-data_entity.scn
+res://Level/Example/Level.tscn::4a34530cff76c5c6da73a0455eb1944c::1708819050::res://.godot/exported/133200997/export-8a856fb2d16405512c85ed7d4ee18632-Level.scn
+res://Level/Step2/Step2_Encapsulation.tscn::1c2bd932267e6f4963685eacf949b3a7::1708820108::res://.godot/exported/133200997/export-8869ea0280f6acb044c860a4d1e691a2-Step2_Encapsulation.scn
+res://Text/text.tscn::8b7f6a0a24806edb7a0cb095029c4152::1708818523::res://.godot/exported/133200997/export-a6ccb1b3d685263a0ddb2d1f53a26654-text.scn
