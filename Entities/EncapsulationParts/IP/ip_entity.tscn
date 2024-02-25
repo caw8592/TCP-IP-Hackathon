@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://0aafusqrluwp"]
+
+[ext_resource type="Script" path="res://Entities/EncapsulationParts/IP/ip_entity.gd" id="1_mbmb8"]
+[ext_resource type="Texture2D" uid="uid://cu2sktpyyv81o" path="res://box.webp" id="2_ffmrm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4t1b2"]
+size = Vector2(69.7628, 20)
+
+[node name="ip_entity" type="Node2D" groups=["ip_dropper"]]
+script = ExtResource("1_mbmb8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.140146, -0.0288032)
+texture = ExtResource("2_ffmrm")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -6.0
+offset_top = -3.0
+offset_right = 34.0
+offset_bottom = 23.0
+scale = Vector2(0.274296, 0.258345)
+text = "IP"
+
+[node name="ip_entity_collision" type="Area2D" parent="."]
+scale = Vector2(1.04906, 0.749162)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ip_entity_collision"]
+shape = SubResource("RectangleShape2D_4t1b2")
+
+[connection signal="body_entered" from="ip_entity_collision" to="." method="_on_ip_entity_collision_body_entered"]
+[connection signal="body_exited" from="ip_entity_collision" to="." method="_on_ip_entity_collision_body_exited"]
+[connection signal="mouse_entered" from="ip_entity_collision" to="." method="_on_ip_entity_collision_mouse_entered"]
+[connection signal="mouse_exited" from="ip_entity_collision" to="." method="_on_ip_entity_collision_mouse_exited"]

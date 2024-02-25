@@ -1,3 +1,58 @@
-[gd_scene format=3 uid="uid://qhml041p4xha"]
+[gd_scene load_steps=10 format=3 uid="uid://qhml041p4xha"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://bdyugtddnuxc7" path="res://Entities/EncapsulationParts/Data/data_entity.tscn" id="1_kun1j"]
+[ext_resource type="PackedScene" uid="uid://cuyhuswytq6ac" path="res://Text/EncapsulationLabel/EncapsulationTxT.tscn" id="1_wmfq2"]
+[ext_resource type="PackedScene" uid="uid://244ocbqm3lrr" path="res://Drop Locations/package/DataDrop/data_drop.tscn" id="1_y0ib2"]
+[ext_resource type="PackedScene" uid="uid://dur2ysa0e5gsj" path="res://Drop Locations/package/TCPDrop/tcp_drop.tscn" id="2_3gw4w"]
+[ext_resource type="PackedScene" uid="uid://1d8uuk7rwsbb" path="res://Drop Locations/package/IPDrop/ip_drop.tscn" id="2_huanc"]
+[ext_resource type="PackedScene" uid="uid://d3nhaxyvpc28a" path="res://Entities/EncapsulationParts/TCP/tcp_entity.tscn" id="3_cmwlc"]
+[ext_resource type="PackedScene" uid="uid://csoxwtl7xwc2x" path="res://Drop Locations/package/HeaderDrop/header_drop.tscn" id="4_gikd0"]
+[ext_resource type="PackedScene" uid="uid://sktlmy0mp44g" path="res://Entities/EncapsulationParts/Header/header_entity.tscn" id="7_uwnr5"]
+[ext_resource type="PackedScene" uid="uid://0aafusqrluwp" path="res://Entities/EncapsulationParts/IP/ip_entity.tscn" id="9_hfmg1"]
+
+[node name="Step2" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Control" parent="." instance=ExtResource("1_wmfq2")]
+offset_left = 17.0
+offset_top = 16.0
+offset_right = 17.0
+offset_bottom = 16.0
+scale = Vector2(1.06992, 1.00798)
+
+[node name="Package" type="Node" parent="."]
+
+[node name="ip_drop" parent="Package" groups=["ip_droppable"] instance=ExtResource("2_huanc")]
+position = Vector2(300, 220)
+scale = Vector2(5, 5)
+
+[node name="data_drop" parent="Package" instance=ExtResource("1_y0ib2")]
+position = Vector2(300, 400)
+scale = Vector2(5, 5)
+
+[node name="tcp_drop" parent="Package" instance=ExtResource("2_3gw4w")]
+position = Vector2(300, 310)
+scale = Vector2(5, 5)
+
+[node name="header_drop" parent="Package" instance=ExtResource("4_gikd0")]
+position = Vector2(300, 130)
+scale = Vector2(5, 5)
+
+[node name="TCP_entity" parent="." instance=ExtResource("3_cmwlc")]
+position = Vector2(800, 220)
+scale = Vector2(5, 5)
+
+[node name="data_entity" parent="." instance=ExtResource("1_kun1j")]
+position = Vector2(800, 490)
+scale = Vector2(5, 5)
+
+[node name="header_entity" parent="." instance=ExtResource("7_uwnr5")]
+position = Vector2(800, 310)
+scale = Vector2(5, 5)
+
+[node name="ip_entity" parent="." instance=ExtResource("9_hfmg1")]
+position = Vector2(800, 400)
+scale = Vector2(5, 5)

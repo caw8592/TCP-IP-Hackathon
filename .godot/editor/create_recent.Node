@@ -1,9 +1,11 @@
+StaticBody2D
 ColorRect
+Label
+Node
 Sprite2D
 CollisionShape2D
-StaticBody2D
+Area2D
 CanvasLayer
 CanvasGroup
 Node2D
-Area2D
 CharacterBody2D
