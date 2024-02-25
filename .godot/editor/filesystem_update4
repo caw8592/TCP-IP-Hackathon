@@ -1,2 +1,5 @@
 res://Level/Example/Level.tscn
-res://Drop Locations/computer/computer_drop.tscn
+res://TCPLabel.gd
+res://Text/text.tscn
+res://Level/Step1/TCPLabel/TCPLabel.tscn
+res://Entities/Entity.tscn
