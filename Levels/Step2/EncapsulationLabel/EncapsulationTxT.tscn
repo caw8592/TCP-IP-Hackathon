@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://cuyhuswytq6ac"]
+
+[ext_resource type="Script" path="res://Levels/Step2/EncapsulationLabel/Control.gd" id="1_aug1g"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1152.0
+offset_bottom = -648.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_aug1g")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 150.0
+offset_bottom = 110.0
+scale = Vector2(6.97946, 1.16414)
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 1028.0
+offset_bottom = 80.0
+scale = Vector2(1.01596, 1.58724)
+text = "Test
+"
+horizontal_alignment = 1
+vertical_alignment = 1
